@@ -1,5 +1,19 @@
 # ds-load-hubspot
-A sample `ds-load`` plugin for getting contact and company data out of hubspot
+A sample `ds-load` plugin for getting contact and company data out of hubspot.
+
+This plugin can be used with `ds-load` to load this data as objects and relations into a Topaz / Aserto directory.
+
+## Build and install
+
+Clone the repo, then:
+
+```
+go mod tidy
+mage build
+cp dist/ds-load-hubspot_<arch>/ds-load-hubspot ~/.ds-load/plugins
+```
+
+This will make the `ds-load-hubspot` plugin available to `ds-load`.
 
 ## Arguments
 
