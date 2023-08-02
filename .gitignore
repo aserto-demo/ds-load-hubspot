@@ -1,0 +1,17 @@
+.DS_Store
+
+# local development settings
+/.dev/ 
+# external extensions folder
+/.ext/
+# goreleaser build directory
+/dist/
+/bin/
+
+# VS Code specific
+/.vscode/launch.json
+/.vscode/tasks.json
+
+# IDE speciffic
+/.idea/
+.run/
