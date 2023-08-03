@@ -8,7 +8,6 @@ require (
 	github.com/alecthomas/kong v0.7.1
 	github.com/aserto-dev/ds-load/cli v0.0.0-20230728175409-fd54a28fbe1a
 	github.com/aserto-dev/mage-loot v0.8.15
-	github.com/itchyny/gojq v0.12.13
 	github.com/magefile/mage v1.15.0
 	golang.org/x/oauth2 v0.9.0
 )
@@ -17,14 +16,12 @@ require (
 	cloud.google.com/go/compute v1.19.3 // indirect
 	cloud.google.com/go/compute/metadata v0.2.3 // indirect
 	github.com/OneOfOne/xxhash v1.2.8 // indirect
-	github.com/allegro/bigcache/v3 v3.0.2 // indirect
 	github.com/aserto-dev/clui v0.8.1 // indirect
 	github.com/aserto-dev/logger v0.0.3 // indirect
 	github.com/dongri/phonenumber v0.0.0-20230428094603-9e2d44886294 // indirect
 	github.com/fatih/color v1.13.0 // indirect
 	github.com/fsnotify/fsnotify v1.5.4 // indirect
 	github.com/gitleaks/go-gitdiff v0.7.4 // indirect
-	github.com/go-test/deep v1.0.8 // indirect
 	github.com/golang/groupcache v0.0.0-20210331224755-41bb18bfe9da // indirect
 	github.com/golang/protobuf v1.5.3 // indirect
 	github.com/google/s2a-go v0.1.4 // indirect
@@ -33,7 +30,6 @@ require (
 	github.com/googleapis/gax-go/v2 v2.11.0 // indirect
 	github.com/hashicorp/hcl v1.0.0 // indirect
 	github.com/imdario/mergo v0.3.13 // indirect
-	github.com/itchyny/timefmt-go v0.1.5 // indirect
 	github.com/kyokomi/emoji v2.2.4+incompatible // indirect
 	github.com/magiconair/properties v1.8.6 // indirect
 	github.com/mattn/go-colorable v0.1.13 // indirect
@@ -52,9 +48,6 @@ require (
 	github.com/spf13/pflag v1.0.5 // indirect
 	github.com/spf13/viper v1.13.0 // indirect
 	github.com/subosito/gotenv v1.4.1 // indirect
-	github.com/tidwall/gjson v1.14.3 // indirect
-	github.com/tidwall/match v1.1.1 // indirect
-	github.com/tidwall/pretty v1.2.0 // indirect
 	github.com/ulikunitz/xz v0.5.10 // indirect
 	github.com/zricethezav/gitleaks/v8 v8.3.0 // indirect
 	go.opencensus.io v0.24.0 // indirect

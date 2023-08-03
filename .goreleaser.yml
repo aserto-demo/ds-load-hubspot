@@ -45,33 +45,3 @@ release:
   draft: false
   prerelease: auto
   name_template: "ds-load-hubspot {{.Tag}}"
-
-brews:
-  -
-    name: ds-load-hubspot
-
-    tap:
-      owner: aserto-dev
-      name: homebrew-tap
-      token: "{{ .Env.ASERTO_TAP }}"
-
-    url_template: "https://github.com/aserto-demo/ds-load-hubspot/releases/download/{{ .Tag }}/{{ .ArtifactName }}"
-    
-    download_strategy: CurlDownloadStrategy
-
-    commit_author:
-      name: Aserto Bot
-      email: github-bot@aserto.com
-
-    homepage: "https://docs.aserto.com/"
-
-    description: "DS Load Hubspot"
-
-    license: "Apache 2.0"
-
-    skip_upload: false
-
-    test: |
-      system "#{bin}/ds-load-hubspot version"
-    install: |
-      bin.install "ds-load-hubspot"
